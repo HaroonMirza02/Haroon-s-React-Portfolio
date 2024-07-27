@@ -39,7 +39,7 @@ function Home2() {
           <Col md={8}>
             <Zoom in={checked}>
               <Paper elevation={0} style={{ padding: '20px', backgroundColor: 'transparent', boxShadow: 'none' }}>
-                <h1 style={{ fontSize: "2.6em", color: "white" }}>
+                <h1 style={{ fontSize: "2.1em", color: "white" }}>
                    BRIEF <span className="purple"> INTRODUCTION </span>
                 </h1>
                 <p className="home-about-body" style={{ color: "white" }}>
