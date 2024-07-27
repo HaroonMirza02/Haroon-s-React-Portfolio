@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-![Portfolio](./Images/home.png)
+![Portfolio](./Images/home.PNG)
 
 ## Table of Contents
 
@@ -64,19 +64,19 @@ To get a local copy up and running follow these simple steps.
 ## Screenshots
 
 ### Homepage
-![Homepage](./Images/home.png)
+![Homepage](./Images/home.PNG)
 
 ### About
-![About](./Images/About.png)
+![About](./Images/About.PNG)
 
 ### Projects
-![Projects](./Images/projects.png)
+![Projects](./Images/projects.PNG)
 
 ### Tech Stack
-![Resume](./Images/techstack.png)
+![Resume](./Images/techstack.PNG)
 
 ### Contact
-![Contact](./Images/contact.png)
+![Contact](./Images/contact.PNG)
 
 ## Contact
 
