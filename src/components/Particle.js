@@ -1,9 +1,11 @@
+// Particle.js
 import React from "react";
 import Particles from "react-tsparticles";
 
-function Particle() {
+function Particle({ className }) {
   return (
     <Particles
+      className={className}
       id="tsparticles"
       params={{
         particles: {
@@ -15,7 +17,7 @@ function Particle() {
             },
           },
           color: {
-            value: "#aaffff", 
+            value: "#aaffff",
           },
           shape: {
             type: "circle",

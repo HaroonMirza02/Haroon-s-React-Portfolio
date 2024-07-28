@@ -742,3 +742,89 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* --------- */
+/*ContactForm*/
+/* --------- */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: var(--section-background-color) !important;
+  padding: 20px;
+  position: relative; /* Ensure the container is positioned relatively */
+}
+
+.particle {
+  position: absolute; /* Position absolutely within the container */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Place behind other content */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  position: relative; /* Ensure the form is above the particles */
+  z-index: 1;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #d38bfc;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #d38bfc;
+  background: transparent;
+  color: #fff;
+  outline: none;
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus, textarea:focus {
+  border-color: #d38bfc;
+  box-shadow: 0 0 10px #d38bfc;
+}
+
+input[type="submit"] {
+  background-color: #d38bfc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: #bf7dfc;
+}
+
+/* --------- */
+/*POP UP FOR SUCCESS /FAILURE/
+/* --------- */
+
+/* Custom Toast Container Styles */
+.toast-container {
+  font-family: Arial, sans-serif;
+}
+
+/* Success Toast Styles */
+.toast-success {
+  background: linear-gradient(to right, #433150, #290041); /* Dark to light purple gradient */
+  color: #fff; /* White text */
+  border-radius: 4px;
+}
+
+/* Error Toast Styles */
+.toast-error {
+  background: linear-gradient(to right, #a71010, #d88705); /* Red to orange gradient */
+  color: #fff; /* White text */
+  border-radius: 4px;
+}
