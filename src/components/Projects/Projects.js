@@ -45,7 +45,7 @@ function Projects() {
               isBlog={false}
               title="Maze Generator"
               description="Created a Maze Generator application in Java that generates and solves random mazes, incorporating over 10 data structure concepts such as LinkedLists, Arrays, Depth-First Search (DFS), and Breadth-First Search (BFS)."
-              ghLink="https://github.com/HaroonMirza02/DSA"
+              ghLink="https://github.com/HaroonMirza02/MazeGenerator-DSA"
             />
           </Col>
           <Col md={4} className="project-card">
