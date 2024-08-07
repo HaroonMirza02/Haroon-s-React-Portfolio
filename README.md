@@ -80,7 +80,7 @@ To get a local copy up and running follow these simple steps.
 ![Resume](./Images/techstack.PNG)
 
 ### Contact
-![Contact](./Images/contact.png)
+![Contact](./Images/contact.PNG)
 
 ## Contact
 
